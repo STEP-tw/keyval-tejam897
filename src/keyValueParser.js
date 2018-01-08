@@ -6,6 +6,7 @@ var Parser=function() {
   this.parseInfoCreator=parseInfoCreator;
 }
 
+
 Parser.prototype = {
   parse:function(text) {
     var parseInfo=this.parseInfoCreator(this.ignoreLeadingWhiteSpace);
